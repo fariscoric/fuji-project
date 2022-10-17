@@ -18,7 +18,7 @@ function Home() {
     fetch("https://kitsu.io/api/edge/trending/anime")
       .then((res) => res.json())
       .then((json) => {
-        setCategories(json.data);
+        setTrending(json.data);
         console.log(json.data);
       });
   };
@@ -63,7 +63,7 @@ function Home() {
 
   useEffect(() => {
     getTrending();
-    getCategories();
+    // getCategories();
     getRomance();
     getHorror();
     getAction();
