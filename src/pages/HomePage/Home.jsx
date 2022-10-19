@@ -101,6 +101,11 @@ function Home() {
           <HomePoster
             image={el.attributes.coverImage.large}
             title={el.attributes.canonicalTitle}
+            episodes={el.attributes.episodeCount}
+            rating={el.attributes.averageRating}
+            description={el.attributes.description}
+            posterImage={el.attributes.posterImage.small}
+            id={el.id}
           />
         ))}
       </Carousel>
