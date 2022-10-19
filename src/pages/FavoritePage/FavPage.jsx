@@ -55,7 +55,6 @@ export default function FavPage() {
                       </h1>
                       <img
                         src={el.image}
-                        alt="image"
                         className=" rounded-lg delay-150 group-hover:brightness-20"
                       />
                     </div>
@@ -103,7 +102,6 @@ export default function FavPage() {
                       </h1>
                       <img
                         src={el.image}
-                        alt="image"
                         className=" rounded-lg delay-150 group-hover:brightness-20"
                       />
                     </div>

@@ -58,12 +58,14 @@ function Manga() {
   useEffect(() => {
     if (state) {
       setCategory(state.category);
+      //eslint-disable-next-line react-hooks/exhaustive-deps
       kategorija = state.category;
     }
     getManga();
   }, []);
 
   useEffect(() => {
+    //eslint-disable-next-line react-hooks/exhaustive-deps
     setOffset(offset + 20);
   }, [manga]);
 

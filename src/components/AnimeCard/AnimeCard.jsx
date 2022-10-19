@@ -6,7 +6,6 @@ function AnimeCard({ image, title }) {
       </h1>
       <img
         src={image}
-        alt="image"
         className=" rounded-lg delay-150 group-hover:brightness-20"
       />
       <p className="absolute self-end bottom-5 text-white delay-150 z-10 opacity-0 group-hover:opacity-100">Click to see more</p>
