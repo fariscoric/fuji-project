@@ -66,7 +66,7 @@ function Home() {
 
   useEffect(() => {
     getTrending();
-    // getCategories();
+    getCategories();
     getRomance();
     getHorror();
     getAction();
